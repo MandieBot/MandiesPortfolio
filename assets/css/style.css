@@ -1,16 +1,14 @@
+/* Setting up the webpage skeleton */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
-
 body {
   background-color: antiquewhite;
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
+/* Adding style to the header and navigation bar */
 header {
-  /* display: flex; */
   padding: 10px;
   background-color: #ede1d0;
   color: black;
@@ -34,31 +32,27 @@ header nav ul {
   justify-content: space-evenly;
   font-size: 24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  /* align-items: right; */
 }
+
+/* Modifying all links and borders */
 a {
   text-decoration: none;
   color: black;
 }
-a:hover {
+.border-hover:hover {
   border: solid 3px black;
   border-top: solid 3px black;
-  /* border-style: solid;
-  border-width: 3px;
-  border-color: black; */
 }
 h3 {
   font-size: 22px;
   font-family: cursive;
-  /* padding-left: 145px; */
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   text-align: center;
 }
+/* Laying out the main section and article sections */
 main {
   display: inline-block;
   width: 100%;
-  /* margin: 10px; */
-  /* margin-bottom: 10px; */
 }
 #AboutMe {
   background-color: #f0af1e;
@@ -66,7 +60,6 @@ main {
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
-  /* margin-bottom: 10px; */
 }
 h2 {
   font-size: 30px;
@@ -79,20 +72,21 @@ h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
 }
-
+/* Adding style to items within flex container */
 .smallerApps {
-  flex: 4;
+  flex: 3;
   display: flex;
+  flex-shrink: 2;
   background-color: #6a998b;
   flex-wrap: wrap;
   padding: 50px;
   justify-content: space-evenly;
-  align-items: flex-end;
+  align-items: center;
 }
 .snapshot {
   padding: 10px;
-  margin: 30px;
-  flex: 0 0 325px;
+  margin: 35px;
+  flex: 0 2 395px;
 }
 .snapshot header {
   padding: 20px;
@@ -101,6 +95,7 @@ h2 {
 .snapshot img {
   width: 100%;
 }
+/* Styling the bottom article and footer */
 #ContactMe {
   background-color: #f0788b;
   opacity: 0.7;
@@ -110,9 +105,10 @@ h2 {
 }
 footer {
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: cursive;
   font-weight: 100;
 }
+/* Making the webpage responsive to mobile devices */
 @media screen and (max-width: 400px) {
   header img {
     width: 100px;
