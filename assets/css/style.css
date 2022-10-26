@@ -1,7 +1,7 @@
 /* Setting up the webpage skeleton */
 * {
   box-sizing: border-box;
-  padding: 0;
+  padding: 10px;
   margin: 0;
 }
 body {
@@ -24,7 +24,7 @@ header h1 {
 header img {
   width: 80px;
   height: 80px;
-  border-radius: 25%;
+  border-radius: 20%;
 }
 header nav ul {
   display: flex;
@@ -40,8 +40,8 @@ a {
   color: black;
 }
 .border-hover:hover {
-  border: solid 3px black;
-  border-top: solid 3px black;
+  border: solid 3px #fcf9ed;
+  border-top: solid 3px #fcf9ed;
 }
 h3 {
   font-size: 22px;
@@ -55,29 +55,31 @@ main {
   width: 100%;
 }
 #AboutMe {
-  background-color: #f0af1e;
+  background-color: #c07f80;
   opacity: 0.7;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
+  padding: 10px;
 }
 h2 {
   font-size: 30px;
   margin-bottom: 15px;
 }
 #Work {
-  background-color: #6a998b;
+  background-color: #e1aa96;
   opacity: 0.7;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
+  padding: 10px;
 }
 /* Adding style to items within flex container */
 .smallerApps {
   flex: 3;
   display: flex;
   flex-shrink: 2;
-  background-color: #6a998b;
+  background-color: #e1aa96;
   flex-wrap: wrap;
   padding: 50px;
   justify-content: space-evenly;
@@ -97,11 +99,12 @@ h2 {
 }
 /* Styling the bottom article and footer */
 #ContactMe {
-  background-color: #f0788b;
+  background-color: #e9bcb2;
   opacity: 0.7;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
+  padding: 10px;
 }
 footer {
   text-align: center;
