@@ -13,3 +13,6 @@ Upon visiting this webpage, the user is able to read a summary of Mandie Botinel
 Please hover over the header links located in the Navigation Bar to be directed to each section of the portfolio: About Me, Work, and Contact Me. To explore Mandie's Work, simply click the corresponding image to be taken to that application.
 
 [Mandie's Portfolio] (https://mandiebot.github.io/MandiesPortfolio/)
+
+![Screenshot of Deployed Application] <img width="1440" alt="Screen Shot 2022-10-26 at 5 57 55 PM" src="https://user-images.githubusercontent.com/115324641/198160481-cbc094c9-003a-45bd-9011-517d203548e7.png">
+<img width="1920" alt="Screen Shot 2022-10-26 at 5 57 55 PM (2)" src="https://user-images.githubusercontent.com/115324641/198160488-065815e9-aec6-453e-9061-ff8c466919d0.png">
