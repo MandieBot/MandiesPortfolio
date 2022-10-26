@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f8f3ed;
+  background-color: antiquewhite;
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
 header {
@@ -49,6 +49,7 @@ main {
 }
 .AboutMe {
   background-color: #f0af1e;
+  opacity: 0.7;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
@@ -60,6 +61,7 @@ h2 {
 }
 .Work {
   background-color: #6a998b;
+  opacity: 0.7;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
@@ -72,7 +74,6 @@ h2 {
   flex-wrap: wrap;
   padding: 50px;
   justify-content: space-evenly;
-  /* flex-direction: column; */
   align-items: flex-end;
 }
 .snapshot {
@@ -86,4 +87,16 @@ h2 {
 }
 .snapshot img {
   width: 100%;
+}
+.ContactMe {
+  background-color: #f0788b;
+  opacity: 0.7;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
 }
