@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(248, 243, 237);
+  background-color: #f8f3ed;
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
 header {
@@ -36,7 +36,7 @@ header nav ul {
   /* align-items: right; */
 }
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-family: cursive;
   padding-left: 145px;
   margin-bottom: 25px;
@@ -64,37 +64,26 @@ h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
 }
-/* 
-.appName {
-  position: relative;
-  width: 50%;
+
+.smallerApps {
+  flex: 4;
+  display: flex;
+  background-color: #6a998b;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  align-items: flex-end;
 }
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.snapshot {
+  padding: 10px;
+  margin: 30px;
+  flex: 0 0 325px;
 }
-.layer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
+.snapshot header {
+  padding: 20px;
   background-color: #ede1d0;
 }
-.firstApp:hover .layer {
-  opacity: 1;
-}
-.appName {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.snapshot img {
+  width: 100%;
 }
