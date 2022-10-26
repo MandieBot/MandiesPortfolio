@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
 
 body {
@@ -21,16 +22,79 @@ header h1 {
   /* text-align: center; */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 25%;
+}
 header nav ul {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   /* align-items: right; */
 }
-h2 {
+h3 {
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-left: 50px;
+  font-family: cursive;
+  padding-left: 145px;
+  margin-bottom: 25px;
+}
+main {
+  display: inline-block;
+  width: 100%;
+  /* margin: 10px; */
+  /* margin-bottom: 10px; */
+}
+.AboutMe {
+  background-color: #f0af1e;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.Work {
+  background-color: #6a998b;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+/* 
+.appName {
+  position: relative;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ede1d0;
+}
+.firstApp:hover .layer {
+  opacity: 1;
+}
+.appName {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
