@@ -14,5 +14,4 @@ Please hover over the header links located in the Navigation Bar to be directed 
 
 [Mandie's Portfolio] (https://mandiebot.github.io/MandiesPortfolio/)
 
-![Screenshot of Deployed Application] <img width="1440" alt="Screen Shot 2022-10-26 at 5 57 55 PM" src="https://user-images.githubusercontent.com/115324641/198160481-cbc094c9-003a-45bd-9011-517d203548e7.png">
-
+![Screenshot of Deployed Application] <img width="1295" alt="Screen Shot 2022-10-26 at 6 00 50 PM" src="https://user-images.githubusercontent.com/115324641/198160715-2c3a522b-e034-4ba2-abac-ad136e29fc1e.png">
